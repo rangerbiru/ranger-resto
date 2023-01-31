@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ranger-resto/static/css/main.a0459b44.css",
+    "main.js": "/ranger-resto/static/js/main.21de0320.js",
+    "index.html": "/ranger-resto/index.html",
+    "main.a0459b44.css.map": "/ranger-resto/static/css/main.a0459b44.css.map",
+    "main.21de0320.js.map": "/ranger-resto/static/js/main.21de0320.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a0459b44.css",
+    "static/js/main.21de0320.js"
+  ]
+}
