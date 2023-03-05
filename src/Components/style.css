@@ -1,0 +1,70 @@
+.bg-home {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.4), 
+        rgba(0, 0, 0, 0.4)
+      ),url('https://demos.onepagelove.com/html/resto/img/hero_bg_1.jpg');
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+.transisi {
+    transition: .3s;
+}
+/* Style untuk sticky */
+header.sticky {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: .3s;
+    @apply fixed w-full bg-white z-50 py-5
+}
+
+header.sticky .logo h2 {
+    @apply text-black border-black
+}
+
+header.sticky ul {
+    @apply text-black
+}
+
+.col-50 {
+    width: 50%;
+}
+
+.bg-menu {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.4), 
+        rgba(0, 0, 0, 0.4)
+      ),url('https://demos.onepagelove.com/html/resto/img/hero_bg_2.jpg');
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+.card-shadow {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+@media (max-width:768px) {
+
+
+    .bg-home {
+        background-position: center center;
+    }
+
+    .nav-menu.active {
+        display: block;
+        @apply bg-red-500
+    }
+
+    header.sticky .ham {
+        @apply bg-red-500
+    }
+
+    header.sticky .hamburger-react div {
+        background: red !important;
+    }
+
+    header.sticky .ham-menu {
+        @apply top-20
+    }
+}
